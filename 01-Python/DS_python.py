@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 23 22:16:37 2024
-
-@author: HP
-"""
-
 ##############2/04/2024###################
 
 print("nikita")
