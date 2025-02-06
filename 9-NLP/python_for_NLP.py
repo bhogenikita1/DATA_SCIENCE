@@ -52,7 +52,7 @@ concat_word
 ###printing the even words from the sentence
 [words[i] for i in range(len(words))if i%2==0]
 ###words having odd length will not be printed
-
+[words[i] for i in range(len(words))if i%2==1]
 sentence
 #want to display AI
 sentence[-3:]
@@ -75,7 +75,7 @@ sentence[::-1]
 
 words
 print( " ".join(word[::-1]for word in words))
-#it will display ew era gninrael gniniMtxeT morf inavijnaS IA
+#it will display==> ew era gninrael gniniMtxeT morf inavijnaS IA
  
 ##tokenisation
 #CHOPPING THE SENTENCE INTO WORDS
@@ -84,7 +84,7 @@ nltk.download('punkt')
 from nltk import word_tokenize
 words=word_tokenize("I am reading NLP Fundamentals")
 print(words)
-
+ 
 #parts of speech (pos)tagging
 nltk.download('averaged_perceptron_tagger')
 nltk.pos_tag(words)
@@ -107,7 +107,6 @@ print(stop_words)
 sentence_words=" i am a student of sanjivani college of engineering"
 sentence_no_stops=" ".join([words for words in sentence_words ])
 print(sentence_no_stops)
-sentence1
 
 ##you can notice that am,is.of the most popular,in are missing
 ##########
@@ -183,6 +182,7 @@ sent
 ## he went to bank and checked account it was almost 
 #looking this he went to river bank and was crying
 
+#LESK
 from nltk.wsd import lesk
 sentence1="keep your saving in the bank"
 print(lesk(word_tokenize(sentence1),'bank'))
