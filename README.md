@@ -1,5 +1,3 @@
-# DATA_SCIENCE
-
 # DATA_SCIENCE 📊🧠
 
 Welcome to the **DATA_SCIENCE** repository! This repository is a comprehensive collection of data science concepts and practical implementations using Python, SQL, and various machine learning techniques.
