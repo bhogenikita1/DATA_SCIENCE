@@ -2,19 +2,19 @@
 
 #1. Write a program to check whether a number is positive or negative or zero
 
-def check_number(num):
-    if num > 0:
+def check_number(number):
+    if number > 0:
         return "Number is positive"
-    elif num < 0:
+    elif number < 0:
         return "Number is negative"
     else:
         return "Number is zero"
 
 # Taking user input
-number = float(input("Enter a number: "))
+num = float(input("Enter a number: "))
 
 # Checking the number and displaying the result
-result = check_number(number)
+result = check_number(num)
 print(result)
 
 
